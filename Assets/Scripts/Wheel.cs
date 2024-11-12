@@ -74,7 +74,6 @@ public class Wheel : MonoBehaviour
             return;
         }
         angle_diff = 360 / section_num;
-        glow_sprite.SetActive(false);
     }
 
     // State machine
